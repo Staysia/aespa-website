@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+@media screen and (min-width: 1200px){
+    .s_1{
+        min-height: 715px;
+       }
+}
+
+@media screen and (min-width: 1000px){
+    .s_2{
+        min-height: 670px;
+       }
+}
+
+.tracklist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.tracklist-table th, .tracklist-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tracklist-table th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.main-image {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  border-radius: 8px;
+  max-height: 700px;
+}
+
+.main-whiplash {
+  margin: 20px auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15%;
+}
+
+.intro-image {
+    display: block;
+    float: right;
+    max-height: 650px;
+    margin-left: 20px auto;
+    border-radius: 8px;
+}
+
+.album-whiplash{
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+}
+
+.br-whiplash{
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.compositions-whiplash{
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.member-section {
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.member-image {
+    max-width: 500px auto;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.m{
+    text-align: center;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.zoom-effect {
+    transition: transform 0.2s;
+  }
+  .zoom-effect:hover {
+    transform: scale(2);
+  }
+  
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
